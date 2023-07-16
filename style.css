@@ -1,0 +1,145 @@
+*body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.all{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main{
+    margin-top: 28px;
+    border-radius: 30px;
+    color: white;
+    padding-top: 20px;
+    background-color: rgb(7, 7, 179);
+    width: 270px;
+    height: 350px;
+    text-align: center;
+}
+
+.dhexe{
+    padding-top: 4px;
+    text-align: center;
+    margin-left: 70px;
+    width: 120px;
+    height: 120px;
+    border-radius: 1000px;
+    background-color: rgb(4, 4, 160);
+    
+}
+
+
+
+.midi2{
+    color: red;
+    border-radius: 8px;
+    height: 60px;
+    width: 310px;
+    background-color: rgb(245, 234, 218);
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.num1{
+  margin-left: 10px; 
+}
+
+.mryn h3{
+    margin-left: 90px;
+}
+
+
+
+
+.midi3{
+    color: rgb(8, 8, 0);
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 60px;
+    width: 310px;
+    background-color: rgb(255, 232, 199);
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.num2{
+  margin-left: 10px; 
+}
+
+.mryn1 h3{
+    margin-left: 90px;
+}
+
+
+.midi4{
+    color: rgb(6, 195, 6);
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 60px;
+    width: 310px;
+    background-color: rgb(203, 249, 246);
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.num3{
+  margin-left: 10px; 
+}
+
+.mryn2 h3{
+    margin-left: 90px;
+}
+
+
+.midi5{
+    color: blue;
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 60px;
+    width: 310px;
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.num4{
+  margin-left: 10px; 
+}
+
+.mryn3 h3{
+    margin-left: 90px;
+}
+
+.sahur{
+    margin-left: 50px;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(30, 28, 28);
+    text-align: center;
+}
+
+.sahur h3{
+    padding-top: 5px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+.all{
+    display: grid;
+    grid-template-columns: 300px;
+    
+}
+
+}
